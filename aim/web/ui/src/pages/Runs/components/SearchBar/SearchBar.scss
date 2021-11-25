@@ -1,0 +1,14 @@
+@use 'src/styles/abstracts' as *;
+
+.Runs_Search_Bar {
+  display: flex;
+  border-bottom: $border-separator;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  input {
+    font-family: monospace;
+  }
+  form {
+    width: 100%;
+  }
+}
